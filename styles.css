@@ -282,8 +282,8 @@ img {
 
 /* CTA Button */
 .cta-button {
-    background-color: #ffffff;
-    color: #d16c0e;
+    background-color: #d16c0e;
+    color: #ffffff;
     padding: 14px 28px;
     font-size: 1rem;
     border: none;
