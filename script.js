@@ -3,9 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuBtn = document.querySelector('.mobile-menu');
     const mainNav = document.querySelector('.main-nav ul');
     
-    mobileMenuBtn.addEventListener('click', function() {
-        mainNav.style.display = mainNav.style.display === 'flex' ? 'none' : 'flex';
-    });
+   mobileMenuBtn.addEventListener('click', function() {
+    mainNav.classList.toggle('show');
+});
+    
     
     // Smooth Scrolling for Navigation Links
     document.querySelectorAll('.main-nav a').forEach(anchor => {
