@@ -140,7 +140,7 @@ img {
   height: 100vh;
   background:
     linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.6)),
-    url('/images/almonds-8781992.png') no-repeat center center/cover;
+    url('images/almonds-8781992.png') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
