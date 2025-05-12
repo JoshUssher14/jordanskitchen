@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cookies & Cream Oats | Jordan's Kitchen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-container">
+        <h1>Jordan's Kitchen</h1>
+        <p>The Oat Goat</p>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="index.html#nutrition">Nutrition</a></li>
+          <li><a href="index.html#delivery">Delivery</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="product-detail-section">
+    <div class="container">
+      <div class="product-detail-card">
+        <div class="product-image-wrap">
+          <img src="images/oat9.jpg" alt="Cookies and Cream Oats" />
+        </div>
+        <div class="product-detail-info">
+          <h2>Cookies & Cream</h2>
+          <p class="intro">Dessert-like flavor, fitness-friendly profile.</p>
+          <ul class="product-macros">
+            <li><i class="fas fa-fire"></i> <strong>Calories:</strong> 357 kcal</li>
+            <li><i class="fas fa-dumbbell"></i> <strong>Protein:</strong> 25g</li>
+            <li><i class="fas fa-bread-slice"></i> <strong>Carbs:</strong> 50g</li>
+          </ul>
+          <p class="description">
+            Craving something sweet but staying on track? These Cookies n’ Cream oats deliver classic dessert vibes in a lean, high-protein package. A creamy, chocolatey blend that satisfies without the crash.
+          </p>
+          <a href="index.html#products" class="cta-button">← Back to Products</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Jordan's Kitchen</h3>
+          <p>The Oat Goat</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#delivery">Delivery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-hours">
+          <h3>Order Days</h3>
+          <p>Wednesday & Sunday</p>
+          <p>Delivery & Collection</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Jordan's Kitchen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
