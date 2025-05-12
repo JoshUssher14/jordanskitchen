@@ -174,7 +174,7 @@ img {
 .hero-box::after {
   content: "";
   position: absolute;
-  background-color: #c48f00;
+  background-color: #ffffff;
   border-radius: 2px;
   opacity: 0;
   animation-fill-mode: forwards;
