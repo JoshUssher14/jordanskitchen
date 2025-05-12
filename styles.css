@@ -283,7 +283,7 @@ img {
 /* CTA Button */
 .cta-button {
     background-color: #d16c0e;
-    color: #fff;
+    color: #d16c0e;
     padding: 14px 28px;
     font-size: 1rem;
     border: none;
@@ -293,7 +293,7 @@ img {
 }
 
 .cta-button:hover {
-    background-color: #3e2712;
+    background-color: #d16c0e;
     transform: scale(1.05);
 }
 
