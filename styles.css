@@ -1056,6 +1056,22 @@ img {
     opacity: 1;
   }
 }
+@media (max-width: 480px) {
+  .hero-box {
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+
+  .hero-box::before {
+    width: 3px;
+  }
+
+  .hero-box::after {
+    height: 3px;
+    width: 50%;
+  }
+}
+
 
 /* Preserve all original styles below this line */
 
